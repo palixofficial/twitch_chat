@@ -39,7 +39,7 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
     new gifAlert(message, welcomeGif, magicChime, command);
   }
   
-  if (command == "teszt") {
+  if (command == "test") {
     new gifAlert(user, welcomeGif, magicChime, command);
   }
 
@@ -62,7 +62,7 @@ const generateTitle = {
   yo: " is hype!",
   welcome: " needs a welcome!",
   pizza: " needed a pizza party!",
-  teszt: " tesztel épp",
+  test: " tesztel épp",
 };
 
 function gifAlert(user, gif, audio, type) {
